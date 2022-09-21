@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+ ">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="signup.css" />
+
+  <title>The Giftland Shop</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+ <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__hamburger">
+            <svg>
+              <use xlink:href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </div>
+
+          <div class="nav__logo">
+            <a href="/" class="scroll-link">
+              GIFTLAND<span>.</span>
+            </a>
+          </div>
+
+          <div class="nav__menu">
+            <div class="menu__top">
+              <span class="nav__category">GIFTLAND</span>
+              <a href="#" class="close__toggle">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+              </a>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link scroll-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#category" class="nav__link scroll-link">Category</a>
+              </li>
+              <li class="nav__item">
+                <a href="#news" class="nav__link scroll-link">Deals</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link scroll-link">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="experiences.html" class="nav__link scroll-link">Signup </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="icon__item">
+              <img src="SVG/user.svg">
+            </a>
+
+            <a href="#" class="icon__item">
+             <img src="SVG/bookmark.svg">
+            </a>
+
+            <a href="#" class="icon__item">
+              <img src="SVG/cart.svg">
+              <span id="cart__total">0</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+ </header>
+  <main>
+        <div class="container">
+            <form action="" method="post">
+          
+              <label for class="firstname"><b>First name</b></label>
+                <input type="text" value=""  name= 'firstname'class="form-control2">
+
+                <label for class="firstname"><b>Last name</b></label>
+                <input type="text" value=""name= 'lastname' class="form-control2">
+
+                <label for class="firstname"><b>Phone Number</b></label>
+                <input type="text" value="" name= 'phonenumber' class="form-control2">
+
+
+               
+
+
+                <label for class="firstname"><b>Email</b></label>
+                <input type="text" value="" name= 'email' class="form-control2">
+                
+
+                <label for class="firstname"><b>password</b></label>
+                <input type="text" value="" name= 'password' class="form-control2">
+
+                <label for class="firstname"><b> Confirm password</b></label>
+                <input type="text" value="" name= 'confirmspassword' class="form-control2">
+
+               
+                
+
+               
+               <label for="Remember me"> <input type="checkbox"  checked="checked" style="margin-left: 70px;"> Remember Me</label> 
+          
+               <input type="submit" value="Sign up"name='submit' class=" btn btn-primary">
+          
+            </form>
+        </div>
+  </main>
+   
+</body>

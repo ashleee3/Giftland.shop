@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>The Giftland Shop</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__hamburger">
+            <svg>
+              <use xlink:href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </div>
+
+          <div class="nav__logo">
+            <a href="/" class="scroll-link">
+              GIFTLAND<span>.</span>
+            </a>
+          </div>
+
+          <div class="nav__menu">
+            <div class="menu__top">
+              <span class="nav__category">GIFTLAND</span>
+              <a href="#" class="close__toggle">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+              </a>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link scroll-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#category" class="nav__link scroll-link">Category</a>
+              </li>
+              <li class="nav__item">
+                <a href="#news" class="nav__link scroll-link">Deals</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link scroll-link">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="signup.html" class="nav__link scroll-link">Signup </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="icon__item">
+              <img src="SVG/user.svg" width="20px", height="20px">
+            </a>
+
+            <a href="#" class="icon__item">
+             <img src="SVG/bookmark.svg"width="20px", height="20px">
+            </a>
+
+            <a href="#" class="icon__item">
+              <img src="SVG/cart.svg"width="20px", height="20px">
+              <span id="cart__total">0</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+   
+  <!-- End Header -->
+
+  <!-- Main -->
+  <main id="main">
+    <div class="container">
+      <!-- Collection -->
+      <section id="collection" class="section collection">
+        <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="collection__box">
+            <div class="img__container">
+              <img class="collection_02" src="./images/homedecor1.jpg" alt="">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span></span>
+                <h1>Home and Decor Gifts</h1>
+                <a href="decor.html">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="collection__box">
+            <div class="img__container">
+              <img class="collection_01" src="./images/collection_02.png" alt="">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span></span>
+                <h1>Gadgets and Gaming</h1>
+                <a href="gadgets.html">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      <section id="collection" class="section collection">
+        <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="collection__box">
+            <div class="img__container">
+              <img class="collection_02" src="./images/experiences3.jpg" alt="" height="300px" width="600px">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span></span>
+                <h1>Experiences & Adventures</h1>
+                <a href="experiences.html">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="collection__box">
+            <div class="img__container">
+              <img class="collection_01" src="./images/sweets.jpg" alt="">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span></span>
+                <h1>Sweets and Treats</h1>
+                <a href="sweets.html">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      <section id="collection" class="section collection">
+        <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="collection__box">
+            <div class="img__container">
+              <img   src="images/popup.jpg" alt=""  >
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span></span>
+                <h1>Babies and Kids</h1>
+                <a href="#shop">SHOP NOW</a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="collection__box">
+            <div class="img__container">
+              <img src="images/kids.jpg" alt="" height="250px" width="200px">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span>Budget friendly Gifts</span>
+                <h1>Sales and Deals</h1>
+                <a href="#">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      
+         
+
+     
+
+      <!-- Facility Section -->
+      <section class="facility__section section" id="facility">
+      <div class="container">
+        <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
+          <div class="facility__box">
+            <div class="facility-img__container">
+             <img src="SVG/airplane.svg">
+            </div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <img src="SVG/clock.svg">
+            </div>
+            <p>SAME DAY DELIVERIES</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <img src="SVG/credit-card.svg">
+            </div>
+            <p>MANY PAYMENT METHODS</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <img src="SVG/headphones.svg">
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+      </div>
+     </section>
+    </div>
+       <!--Reviews Section  -->
+       <section class="section news" id="news">
+        <div class="container">
+          <div class="title__container">
+            <div class="section__titles">
+              <div class="section__title active">
+                <span class="dot"></span>
+                <h1 class="primary__title">Reviews</h1>
+              </div>
+            </div>
+          </div>
+          <div class="news__container">
+            <div class="glide" id="glide_5">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <div class="new__card">
+                      <div class="card__header">
+                        <img src="./images/news1.jpg" alt="">
+                      </div>
+                      <div class="card__footer">
+                        <h3>loved the flowers!</h3>
+                        <span>By Ashley Hans</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                          provident rem sed minus natus unde vel modi!</p>
+                        <a href="#"><button>Read More</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="new__card">
+                      <div class="card__header">
+                        <img src="images/news2.jpg" alt="">
+                      </div>
+                      <div class="card__footer">
+                        <h3>How cute is this jumper on him?</h3>
+                        <span>By Jasmin</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                          provident rem sed minus natus unde vel modi!</p>
+                        <a href="#"><button>Read More</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="new__card">
+                      <div class="card__header">
+                        <img src="./images/news3.jpg" alt="">
+                      </div>
+                      <div class="card__footer">
+                        <h3>My mom really loved all the gifts</h3>
+                        <span>By Nelly</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                          provident rem sed minus natus unde vel modi!</p>
+                        <a href="#"><button>Read More</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="new__card">
+                      <div class="card__header">
+                        <img src="./images/news4.jpg" alt="">
+                      </div>
+                      <div class="card__footer">
+                        <h3>love how convenient it is to shop!</h3>
+                        <span>By Admin</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                          provident rem sed minus natus unde vel modi!</p>
+                        <a href="#"><button>Read More</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="new__card">
+                      <div class="card__header">
+                        <img src="./images/news5.jpg" alt="">
+                      </div>
+                      <div class="card__footer">
+                        <h3>Hubby loved the camera :)</h3>
+                        <span>By Admin</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                          provident rem sed minus natus unde vel modi!</p>
+                        <a href="#"><button>Read More</button></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+
+    <!-- NewsLetter -->
+    <section class="section newsletter" id="contact">
+      <div class="container">
+        <div class="newsletter__content">
+          <div class="newsletter__data">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>A short sentence describing what someone will receive by subscribing</p>
+          </div>
+          <form action="#">
+            <input type="email" placeholder="Enter your email address" class="newsletter__email">
+            <a class="newsletter__link" href="#">subscribe</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- End Main -->
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+       
+        <div class="footer-top__box">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-top__box">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-top__box">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            42 Dream House, kikambala street, 7131 Lavington, Kenya
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            Giftlandenquiries@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            456-456-4512
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+              </svg>
+            </span>
+            Nairobi, Kenya
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+
+      </div>
+      <div class="footer-bottom__box">
+
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- PopUp -->
+  <div class="popup hide__popup">
+    <div class="popup__content">
+      <div class="popup__close">
+       
+          <img src="SVG/cross.svg">
+        
+      </div>
+      <div class="popup__left">
+        <div class="popup-img__container">
+          <img class="popup__img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup__right">
+        <div class="right__content">
+          <h1>Get Discount <span>30%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup__form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Go To -->
+
+  <a href="#header" class="goto-top scroll-link">
+    <svg>
+      <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+    </svg>
+  </a>
+
+
+  <!-- Glide Carousel Script -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="./js/products.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slider.js"></script>
+
+</body>
+
+</html>
